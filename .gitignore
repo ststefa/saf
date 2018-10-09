@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IntelliJ
+/.idea/
+/*.iml
+
+# Python virtualenv
+/bin
+/include
