@@ -1,4 +1,4 @@
-INSTRUCTION ASSERTION
+Instruction Assertion
 ---------------------
 Handling of SAF application is rather simple. Unfortunately this does not hold
 true for the overall application construct which might consist of several

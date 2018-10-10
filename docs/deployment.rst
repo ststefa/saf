@@ -1,4 +1,4 @@
-DEPLOYMENT
+Deployment
 ----------
 Deployments are performed in a generalized way with the goal of standardization
 and fault resilience. The deployment process is initially customized once for

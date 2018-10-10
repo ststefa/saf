@@ -1,4 +1,4 @@
-REPOSITORIES
+Repositories
 ------------
 SAF uses two different repositories for different purpose.
 

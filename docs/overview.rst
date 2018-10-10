@@ -1,6 +1,6 @@
-OVERVIEW
+Overview
 --------
-The /app/saf directory on this machine complies to a standardized concept to
+The `/app/saf` directory on this machine complies to a standardized concept to
 manage standalone applications. This concept is called "Standalone Application
 Framework" (SAF).
 

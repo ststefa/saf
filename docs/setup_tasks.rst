@@ -1,5 +1,5 @@
-SAF REPO SETUP
---------------
+Repo Setup
+----------
 SAF uses two kinds of repositories to build transactions. Both are configured
 in /apps/saf/conf/saf.conf.
 
@@ -12,7 +12,7 @@ To setup the mixin-repo the configured project has to be created there and
 permissions have to be granted for ssh pulls and (optionally) API access.
 
 
-MACHINE SETUP
+Machine Setup
 -------------
 A machine needs some one-time preparation steps to enable it for SAF. This is
 mainly about access from the machine to the SAF repositories.
@@ -32,7 +32,7 @@ mainly about access from the machine to the SAF repositories.
    new machine (see also ENCRYPTION)
 
 
-APPLICATION SETUP
+Application Setup
 -----------------
 Before an application can be deployed for the first time the deployer has to
 prepare it for SAF. The first version that is delivered by the supplier is

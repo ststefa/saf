@@ -1,4 +1,4 @@
-ENCRYPTION
+Encryption
 ----------
 SAF encourages collaboration between different teams. It does so by using git
 branches and assigning distinct branches to distinct stages (stage == branch).

@@ -1,10 +1,10 @@
-OPERATING
+Operating
 ---------
-SAF uses a single command called (/app/saf/bin/) "saf". The functionality is
-clustered into command groups like e.g. "app" for application commands or "repo"
+SAF uses a single command called `(/app/saf/bin/)saf`. The functionality is
+clustered into command groups like e.g. `app` for application commands or `repo`
 for repository commands.
 
-Online help is available on all levels. I.e. "saf -h" will show general help
+Online help is available on all levels. I.e. `saf -h` will show general help
 about using saf. "saf app -h" will explain the commands in the app group and
 "saf app start -h" will show detailed help for starting applications.
 
@@ -15,11 +15,13 @@ Example usages:
 
 List applications on the system:
 
-    $ saf app ls
-    NAME               VERSION    SIZE       DEPLOY_TIME
-    cisi-mancenter     1605.0.11  121226920  Wed Oct 19 08:42:07 CEST 2016
-    cisi-storage-1     1605.1.11  121226920  Wed Oct 19 08:45:32 CEST 2016
-    cisi-storage-2     1705.1.10  126276991  Wed Nov 19 08:48:00 CEST 2016
+```
+$ saf app ls
+NAME               VERSION    SIZE       DEPLOY_TIME
+cisi-mancenter     1605.0.11  121226920  Wed Oct 19 08:42:07 CEST 2016
+cisi-storage-1     1605.1.11  121226920  Wed Oct 19 08:45:32 CEST 2016
+cisi-storage-2     1705.1.10  126276991  Wed Nov 19 08:48:00 CEST 2016
+```
 
 List applications matching regex ".*mancenter.*" with details (JSON formatted
 output):

@@ -1,4 +1,4 @@
-MIXINS
+Mixins
 ------
 Usually (but not necessarily) certain files inside the artifact need to be
 customized for each stage that is should be deployed to. This is done at
@@ -9,13 +9,15 @@ better term ;) ).
 A mixin is a directory with a certain structure. The following shows a mixin
 named "my_mixin"
 
-    my_mixin/
-    ├── overlay.conf
-    └── overlay/
-        ├── etc/
-        │   └── runtime.conf
-        └── lib/
-            └── driver.jar
+```
+my_mixin/
+├── overlay.conf
+└── overlay/
+    ├── etc/
+    │   └── runtime.conf
+    └── lib/
+        └── driver.jar
+```
 
 A mixin consists of a file "overlay.conf" and an "overlay" directory which
 contains the files and directories which should be changed. The structure of
@@ -41,11 +43,13 @@ to manage SAF machines).
 Any application must have an application-mixin. The following shows an
 application-mixin for application "my_app".
 
+```
     my_app/
     ├── app.conf
     ├── overlay.conf
     └── overlay/
         └── ...
+```
 
 The same rules like outlined above apply. In addition the application-mixins
 must contain a mandatory "app.conf". It is used to create the (optionally
