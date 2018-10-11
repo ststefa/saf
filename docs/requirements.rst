@@ -8,7 +8,7 @@ they will be completely constant over time. New requirements, new insights or
 elimination of conceptual weaknesses might make it necessary to add, remove or
 rephrase requirements.
 
-Structural:
+Structural
 
 - Artifact delivery format
 
