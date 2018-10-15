@@ -1,5 +1,6 @@
 Encryption
-----------
+==========
+
 SAF encourages collaboration between different teams. It does so by using git
 branches and assigning distinct branches to distinct stages (stage == branch).
 
@@ -17,7 +18,7 @@ decrypted and the resulting file will again contain the sensitive information.
 The following example illustrates the encryption/decryption process. Say our
 application my_app wants to safely specify the password for its database
 backend. my_app wants to see this information in its etc/db.conf file. The
-application-mixin contains ...
+application-mixin contains ... ::
 
     --------- apps/my_app/overlay/etc/db.conf
     ...

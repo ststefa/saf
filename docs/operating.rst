@@ -1,5 +1,6 @@
 Operating
----------
+=========
+
 SAF uses a single command called `(/app/saf/bin/)saf`. The functionality is
 clustered into command groups like e.g. `app` for application commands or `repo`
 for repository commands.
@@ -11,9 +12,12 @@ about using saf. "saf app -h" will explain the commands in the app group and
 The scripts are meant to cover all usecases that occur in daily operating. If
 you feel something is missing please report to stefan.steinert@t-systems.ch.
 
-Example usages:
+Example usages
+--------------
 
-List applications on the system:
+List applications on the system
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 ```
 $ saf app ls

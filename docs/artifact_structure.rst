@@ -1,4 +1,4 @@
-ARTIFACT STRUCTURE
+Artifact Structure
 ------------------
 An artifact is delivered by the customer in a single archive. There are almost
 no requirements about the contents of the archive. This gives the developer

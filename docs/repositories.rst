@@ -1,5 +1,6 @@
 Repositories
-------------
+============
+
 SAF uses two different repositories for different purpose.
 
 - An artifact-repo to store the delivered artifacts in different versions. The

@@ -1,5 +1,5 @@
 Application Requirements
-------------------------
+========================
 
 The application needs to comply to the following requirements to be "SAF
 compatible" (some "must", others "should"). Although these requirements have
@@ -9,6 +9,7 @@ elimination of conceptual weaknesses might make it necessary to add, remove or
 rephrase requirements.
 
 Structural
+----------
 
 - Artifact delivery format
 
@@ -72,7 +73,8 @@ Modifications to properties are considered exceptional.
     if the application does not implement HTTP functionality it may be added using
     https://github.com/NanoHttpd)
 
-Behavioural:
+Behavioural
+-----------
 
 - Startup behaviour
 

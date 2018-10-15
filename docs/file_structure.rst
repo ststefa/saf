@@ -1,5 +1,6 @@
 File Structure
---------------
+==============
+
 Each application is located in a directory in /app/saf/apps/<appname>.
 Applications do not have any conceptual relation. Even multiple streams of the
 same application (e.g. different versions) that need to run in parallel are
