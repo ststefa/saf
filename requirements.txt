@@ -21,7 +21,7 @@ PyInstaller==3.4
 pyparsing==2.2.2
 pytz==2018.5
 PyYAML==5.1
-requests==2.19.1
+requests==2.20.0
 six==1.11.0
 snowballstemmer==1.2.1
 Sphinx==1.8.1
