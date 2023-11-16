@@ -13,10 +13,10 @@ named "my_mixin"
 my_mixin/
 ├── overlay.conf
 └── overlay/
-    ├── etc/
-    │   └── runtime.conf
-    └── lib/
-        └── driver.jar
+    ├── etc/
+    │   └── runtime.conf
+    └── lib/
+        └── driver.jar
 ```
 
 A mixin consists of a file "overlay.conf" and an "overlay" directory which
@@ -48,7 +48,7 @@ application-mixin for application "my_app".
     ├── app.conf
     ├── overlay.conf
     └── overlay/
-        └── ...
+        └── ...
 ```
 
 The same rules like outlined above apply. In addition the application-mixins

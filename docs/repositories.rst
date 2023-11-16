@@ -24,25 +24,25 @@ Example artifact-repo:
 
     (artifact-repo-root)
     ├── my_app/
-    │   ├── 0.0.1/
-    │   │   ├── bin/
-    │   │   │   └── start.sh
-    │   │   ├── etc/
-    │   │   │   └── runtime.conf
-    │   │   └── lib/
-    │   │       └── myapp_v1.jar
-    │   ├── 1.0.0/
-    │   │   ├── bin/
-    │   │   │   └── start.sh
-    │   │   ├── etc/
-    │   │   │   ├── db.conf
-    │   │   │   └── runtime.conf
-    │   │   └── lib/
-    │   │       ├── myapp_v2.jar
-    │   │       └── app_extension.jar
-    │   └── ...
+    │   ├── 0.0.1/
+    │   │   ├── bin/
+    │   │   │   └── start.sh
+    │   │   ├── etc/
+    │   │   │   └── runtime.conf
+    │   │   └── lib/
+    │   │       └── myapp_v1.jar
+    │   ├── 1.0.0/
+    │   │   ├── bin/
+    │   │   │   └── start.sh
+    │   │   ├── etc/
+    │   │   │   ├── db.conf
+    │   │   │   └── runtime.conf
+    │   │   └── lib/
+    │   │       ├── myapp_v2.jar
+    │   │       └── app_extension.jar
+    │   └── ...
     ├── otherApp/
-    │   └── ...
+    │   └── ...
     └── ...
 
 
@@ -55,19 +55,18 @@ Example mixin-repo:
     (mixin-repo-root)
     ├── apps
     │   ├── my_app/
-    │   │   ├── app.conf
-    │   │   ├── overlay.conf
-    │   │   └── overlay/
-    │   │       └── ...
+    │   │   ├── app.conf
+    │   │   ├── overlay.conf
+    │   │   └── overlay/
+    │   │       └── ...
     │   ├── other_app/
-    │   │   └── ...
+    │   │   └── ...
     │   └── ...
     └── mixins
         ├── my_mixin/
-        │   ├── overlay.conf
-        │   └── overlay/
-        │       └── ...
+        │   ├── overlay.conf
+        │   └── overlay/
+        │       └── ...
         ├── other_mixin/
-        │   └── ...
+        │   └── ...
         └── ...
-

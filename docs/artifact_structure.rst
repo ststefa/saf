@@ -11,9 +11,9 @@ throughout this document for illustration
 
     (my_app.zip)
     ├── bin/
-    │   └── start.sh
+    │   └── start.sh
     ├── etc/
-    │   └── runtime.conf
+    │   └── runtime.conf
     └── lib/
         └── myapp_v1.jar
 

@@ -1,43 +1,3 @@
-
-.. _important_notes:
-
-Important notes
-===============
-
-This section provides information about security and corruption issues.
-
-.. _tam_vuln:
-
-Pre-1.0.9 manifest spoofing vulnerability (CVE-2016-10099)
-----------------------------------------------------------
-
-A flaw in the cryptographic authentication scheme in Borg allowed an attacker
-to spoof the manifest. The attack requires an attacker to be able to
-
-1. insert files (with no additional headers) into backups
-2. gain write access to the repository
-
-This vulnerability does not disclose plaintext to the attacker, nor does it
-affect the authenticity of existing archives.
-
-The vulnerability allows an attacker to create a spoofed manifest (the list of archives).
-Creating plausible fake archives may be feasible for small archives, but is unlikely
-for large archives.
-
-The fix adds a separate authentication tag to the manifest. For compatibility
-with prior versions this authentication tag is *not* required by default
-for existing repositories. Repositories created with 1.0.9 and later require it.
-
-Steps you should take:
-
-1. Upgrade all clients to 1.0.9 or later.
-2. Run ``borg upgrade --tam <repository>`` *on every client* for *each* repository.
-3. This will list all archives, including archive IDs, for easy comparison with your logs.
-4. Done.
-
-
-.. _changelog:
-
 Changelog
 =========
 
@@ -93,4 +53,3 @@ Changelog
 2.1.4 (Bugfix Release)
 ---------------------------------
 - fix: Overlaying will no longer be attempted on binary files (gitlab issue #21)
-
